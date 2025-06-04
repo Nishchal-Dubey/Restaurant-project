@@ -1,0 +1,50 @@
+.footer-section {
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-nav {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-nav .nav-link {
+    color: #ffffff; /* White color */
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .footer-nav .nav-link:hover {
+    color: #ffffff; /* Stay white on hover */
+    opacity: 0.8; /* Slight fade effect instead of color change */
+    text-decoration: none;
+  }
+  
+  .copyright p {
+    color: #ffffff; /* White color */
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-nav .nav-link {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer-nav .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .footer-nav .nav-item {
+      margin-bottom: 0.5rem;
+    }
+  }

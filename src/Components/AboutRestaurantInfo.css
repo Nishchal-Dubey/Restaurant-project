@@ -1,0 +1,45 @@
+/* src/Components/AboutRestaurantInfo.css */
+
+.about-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .about-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-subheading {
+    color: #b87b2e;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-logo {
+    max-height: 60px;
+    margin-bottom: 1.5rem;
+    background-color: #666;
+    border-radius: 50%;
+  }
+  
+  .about-description {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  .about-image {
+    border-radius: 12px;
+    object-fit: cover;
+    max-height: 600px;
+    width: 100%;
+  }
+  

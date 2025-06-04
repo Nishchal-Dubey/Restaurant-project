@@ -1,0 +1,35 @@
+.hero-section {
+    position: relative;
+    height: 50vh;
+    background-image: url('food-4k-spdnpz7bhmx4kv2r.jpg'); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay for contrast */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+  
+  .main-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  

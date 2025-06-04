@@ -1,0 +1,22 @@
+.excellence-title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .divider {
+    width: 40px;
+    height: 3px;
+    background-color: #c89b65;
+  }
+  
+  .order-now-text {
+    color: #c89b65;
+    font-weight: 500;
+  }
+  
+  .brand-logo {
+    height: 50px;
+    object-fit: contain;
+  }
+  

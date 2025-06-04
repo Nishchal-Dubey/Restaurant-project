@@ -1,0 +1,55 @@
+.contact-section {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .contact-section h5 {
+    color: #000;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5ab74;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #b78c57;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+  
+  .opening-times-box {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #9a8350;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .opening-times-box ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .opening-times-box ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 0 1rem;
+    }
+  
+    .social-icons {
+      justify-content: start;
+    }
+  }
+  

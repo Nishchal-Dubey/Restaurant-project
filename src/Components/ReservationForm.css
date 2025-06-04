@@ -1,0 +1,19 @@
+/* .reservation-section {
+    background-color: #fdfdfd;
+  }
+   */
+  .reservation-title {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+ 
+  
+  .form-box {
+    max-width: 960px;
+    border: 1px solid #c89b65;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  }
+  

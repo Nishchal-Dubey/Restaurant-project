@@ -1,0 +1,82 @@
+.admin-navbar {
+  background-color: #254db9;
+  padding: 0.5rem 1rem;
+  height: 70px;
+  position: relative;
+  z-index: 1050;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-logo-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.admin-logo {
+  height: 120px;
+  width: auto;
+  cursor: pointer;
+}
+
+.admin-logo:hover {
+  transform: scale(1);
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fecd29;
+}
+
+.navbar-nav .nav-link.active {
+  color: black;
+}
+
+/* Admin user dropdown positioning */
+.admin-user-dropdown {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.admin-user-dropdown .dropdown-menu {
+  z-index: 1060;
+  min-width: 200px;
+}
+
+/* Icon styling */
+.btn-outline-light.dropdown-toggle {
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.btn-outline-light.dropdown-toggle:hover {
+  color: #fecd29;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .admin-user-dropdown {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    right: 1rem;
+  }
+}

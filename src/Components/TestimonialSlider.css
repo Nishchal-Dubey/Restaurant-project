@@ -1,0 +1,101 @@
+
+
+   .testimonial-section {
+    position: relative;
+    background-image: url('food-4k-spdnpz7bhmx4kv2r.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    z-index: 0;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .testimonial-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .testimonial-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffc107;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    color: #222;
+  }
+  
+  .stars {
+    color: #fbbf24;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .profile-img-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fbbf24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5; /* Fallback if image fails to load */
+  }
+  
+  /* Carousel Arrows */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #fbbf24;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    .testimonial-card {
+      padding: 1.5rem;
+    }
+  }
